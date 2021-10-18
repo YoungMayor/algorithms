@@ -1,0 +1,20 @@
+{
+    "name": "youngmayor/algorithm",
+    "type": "project",
+    "license": "ISC",
+    "autoload": {
+        "psr-4": {
+            "Youngmayor\\Algorithm\\": "php/"
+        }
+    },
+    "authors": [{
+        "name": "Meyoron Aghogho",
+        "email": "youngmayor.dev@gmail.com"
+    }],
+    "require": {},
+    "scripts": {
+        "run-sort-test": [
+            "@php php/SortTest.php"
+        ]
+    }
+}
